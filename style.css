@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    min-height:100%;
+	margin:0;
+	font-family:garamond;
+	padding:20px;
+	background:#FAFAFA;
+} 
+/*menu*/ 
+.menu{
+	display:flex;
+	width:100%;
+}
+
+.menu__item{
+	margin:20px 10px;
+	float:right;
+	font-size:20px;
+	font-weight:400;
+}
+.item{
+	width:100%;
+}
+/*banner*/
+.banner{
+	position:relative;
+	background:url("https://mansion-global-app.s3.amazonaws.com/stories/new-luxury-developments-spring-2018-miami/media/miamishorthand_lead-mr.jpg");
+	height:500px;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin-top:20px;
+}
+.wrapper{
+	display:block;
+	text-align:center;
+	color:white;
+}
+h1{
+	font-size:70px;
+	font-weight:800;
+}
+/*location*/
+.location{
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+	padding:0 3%;
+}
+.loc{
+	width:30%;
+}
+.loc img{
+	max-width: 100%;
+	height:auto;
+}
+h2{
+	text-align: center;
+	margin:8% 0 5% 0;
+	font-size:48px;
+}
+/*offer*/
+.offer{
+	display:flex;
+	margin:30px 0;
+}
+.offer img{
+	max-width:50%;
+	margin-bottom:5%;
+}
+.offer p{
+	padding:30px;
+	font-size:20px;
+}
+/*footer*/
+
+footer{
+	display: flex;
+	width:100%;
+	justify-content: center;
+}
